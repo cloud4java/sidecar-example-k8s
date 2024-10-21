@@ -1,0 +1,59 @@
+
+├── book-store
+│   ├── Dockerfile
+│   ├── HELP.md
+│   ├── logs
+│   │   └── book-store.log
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   ├── pom.xml
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   └── com
+│   │   │   │       └── silva
+│   │   │   │           └── bookstore
+│   │   │   │               ├── BookStoreApplication.java
+│   │   │   │               ├── controlleer
+│   │   │   │               │   └── BookController.java
+│   │   │   │               ├── domain
+│   │   │   │               │   └── Book.java
+│   │   │   │               └── service
+│   │   │   │                   └── BookService
+│   │   │   │                       └── BookService.java
+│   │   │   └── resources
+│   │   │       └── application.properties
+│   │   └── test
+│   │       └── java
+│   │           └── com
+│   │               └── silva
+│   │                   └── bookstore
+│   │                       └── BookStoreApplicationTests.java
+├── log-service
+│   ├── Dockerfile
+│   ├── HELP.md
+│   ├── mvnw
+│   ├── mvnw.cmd
+│   ├── pom.xml
+│   ├── project-tree.txt
+│   ├── sidecar-deployment.yaml
+│   ├── sidecar-service.yaml
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   └── com
+│   │   │   │       └── silva
+│   │   │   │           └── logservice
+│   │   │   │               ├── LogServiceApplication.java
+│   │   │   │               └── service
+│   │   │   │                   └── LogHandler.java
+│   │   │   └── resources
+│   │   │       └── application.properties
+│   │   └── test
+│   │       └── java
+│   │           └── com
+│   │               └── silva
+│   │                   └── logservice
+│   │                       └── LogServiceApplicationTests.java
+
+71 directories, 54 files

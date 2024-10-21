@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: combined-service
+  labels:
+    app: combined-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: combined-service
+  template:
+    metadata:
+      name: combined-service
+      labels:
+        app: combined-service
+    spec:
+      volumes:
+        - name: log-volume
+          emptyDir: {}  # or other volume type as needed
+      containers:
+        - name: book-store
+          image: dorivalq/book-store:0.0.1
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+          - name: log-volume
+            mountPath: /logs
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+        - name: log-service #sidecar service
+          image: dorivalq/log-service
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+          - name: log-volume
+            mountPath: /logs
+          ports:
+            - containerPort: 8081
+              protocol: TCP
+      restartPolicy: Always

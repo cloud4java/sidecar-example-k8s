@@ -1,0 +1,25 @@
+.
+├── Dockerfile
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── sidecar-deployment.yaml
+├── sidecar-service.yaml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── silva
+│   │   │           └── logservice
+│   │   │               ├── LogServiceApplication.java
+│   │   │               └── service
+│   │   │                   └── LogHandler.java
+│   │   └── resources
+│   │       └── application.properties
+│   └── test
+│       └── java
+│           └── com
+│               └── silva
+│                   └── logservice
+│                       └── LogServiceApplicationTests.java
