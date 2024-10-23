@@ -23,12 +23,6 @@
 │   │   │   │                       └── BookService.java
 │   │   │   └── resources
 │   │   │       └── application.properties
-│   │   └── test
-│   │       └── java
-│   │           └── com
-│   │               └── silva
-│   │                   └── bookstore
-│   │                       └── BookStoreApplicationTests.java
 ├── log-service
 │   ├── Dockerfile
 │   ├── HELP.md
@@ -49,11 +43,5 @@
 │   │   │   │                   └── LogHandler.java
 │   │   │   └── resources
 │   │   │       └── application.properties
-│   │   └── test
-│   │       └── java
-│   │           └── com
-│   │               └── silva
-│   │                   └── logservice
-│   │                       └── LogServiceApplicationTests.java
 
 71 directories, 54 files

@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d91e2b2-a21d-4c57-b22f-3d58a332fc99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/book-store/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/src/main/java/com/silva/bookstore/BookStoreApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/src/main/java/com/silva/bookstore/controlleer/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-store/src/test/java/com/silva/bookstore/BookStoreApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log-service/src/main/java/com/silva/logservice/service/LogHandler.java" afterDir="false" />
+    <list default="true" id="5d91e2b2-a21d-4c57-b22f-3d58a332fc99" name="Changes" comment="Added new files">
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store" beforeDir="false" afterPath="$PROJECT_DIR$/book-store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/logs/book-store.log" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/logs/book-store.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/main/java/com/silva/bookstore/controlleer/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/main/java/com/silva/bookstore/controlleer/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-store/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/book-store/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log-service/src/main/java/com/silva/logservice/service/LogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/log-service/src/main/java/com/silva/logservice/service/LogHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-tree-full.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project-tree-full.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +28,24 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/book-store" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -52,31 +56,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BookStoreApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dev/book-ultimate/book-ultimate-patterns/sidecar-example-k8s&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.book-store [clean,package].executor": "Run",
+    "Maven.log-service [clean,package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "Spring Boot.BookStoreApplication.executor": "Run",
+    "Spring Boot.LogServiceApplication.executor": "Run",
+    "go.import.settings.migrated": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/dev/book-ultimate/book-ultimate-patterns/sidecar-example-k8s/log-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.silva.bookstore.service.BookService" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BookStoreApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -147,6 +164,13 @@
     <configuration name="BookStoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="book-store" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.silva.bookstore.BookStoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="log-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.silva.logservice.LogServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,11 +249,67 @@
       <workItem from="1729122630256" duration="40000" />
       <workItem from="1729122678886" duration="8711000" />
       <workItem from="1729550485522" duration="97000" />
+      <workItem from="1729550591132" duration="3252000" />
+      <workItem from="1729678127265" duration="2387000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new files">
+      <option name="closed" value="true" />
+      <created>1729551763188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729551763188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="f26e63f0-5fa6-4fed-af4b-ab7f51311b06" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="f26e63f0-5fa6-4fed-af4b-ab7f51311b06">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new files" />
   </component>
   <component name="VgoProject">
     <integration-enabled>false</integration-enabled>
